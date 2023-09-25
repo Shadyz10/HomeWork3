@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-image: url(https://cdni.fancaps.net/file/fancaps-movieimages/6579198.jpg);
+    background-position: center;
+    /* background: url(https://images.unsplash.com/photo-1671124918890-94d1adc9b430?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80) bottom no-repeat; */
+    background-size: cover;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.links {
+    margin-bottom: 40px;
+}
+
+footer .links > a {
+    color: #636b6f;
+    text-decoration: none;
+    padding: 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1rem;
+    font-weight: 600;
+}
+
+.copyright {
+    color: rgb(108, 117, 125);
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 32px;
+    background-color: #fff;
+}
+
+article {
+    width: 700px;
+    margin: o auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+article a {
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+}
+
+article a:hover {
+    color: aquamarine;
+}
+
+article h2 {
+    margin-bottom: 5px;
+}
+
+.author {
+    margin-bottom: 5px;
+    color: rgb(134, 142, 150);
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.news:nth-child(2n+1) {
+    background-color: aquamarine;
+}
+
+.newadds::after {
+    content: " New";
+    font-style: italic;
+    color: rgb(233, 98, 44);
+}
