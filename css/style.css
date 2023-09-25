@@ -63,7 +63,7 @@ article a {
 }
 
 article a:hover {
-    color: aquamarine;
+    color: rgb(255, 104, 160);
 }
 
 article h2 {
